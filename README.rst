@@ -23,13 +23,6 @@ Read ``00_avl_tree.rst`` in Documentation/
 About the implementation
 ========================
 
-The code is at avl_tree.c
-
-The documentation is at Documentation/
-
-If you already know about AVL trees, you may want to go directly
-to the code. Otherwise you should read the documentation first.
-
 There are some choices when implementing AVL trees:
 
 1. recursive or iterative
