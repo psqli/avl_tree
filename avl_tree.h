@@ -54,6 +54,10 @@ struct avl_node_history {
  * go beyond AVL_HISTORY_MAX_HEIGHT limit. It's possible to
  * cause a buffer overflow!
  * TODO: fix it efficiently!
+ *
+ * NOTE: it's possible to know the maximum possible (worst-case)
+ * height for a given number of nodes. This way an implementation
+ * can limit the number of elements.
  */
 
 /* 'h' = node history */
