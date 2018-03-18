@@ -32,6 +32,9 @@ There are some choices when implementing AVL trees:
 At the moment, here we implement an iterative (non-recursive) AVL
 tree that uses balance factor and doesn't have parent pointer.
 
+Also, it is an intrusive data structure, meaning that the node
+structure must be embedded inside the object.
+
 If you want an implementation that have parent pointer, I strongly
 recommend visiting <https://github.com/ebiggers/avl_tree>. It has
 an excellent performance and the developer (Eric Biggers) has
