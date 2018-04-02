@@ -44,5 +44,5 @@ The code in this repo was based entirely on libavl
 <http://adtinfo.org>. I've also read and picked up some pieces
 from the Eric's implementation.
 
-.. [1]: See
+.. [1] See
    <https://patchwork.kernel.org/project/linux-fsdevel/list/?submitter=90951>
